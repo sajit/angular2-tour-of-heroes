@@ -9,7 +9,7 @@ import { HeroService } from './hero.service';
 @Component({
   selector: 'my-app',
   templateUrl: 'app/views/main.html',
-  styleUrls: ['app/app.component.css'],
+  styleUrls: ['app/styles/app.component.css'],
   directives: [ROUTER_DIRECTIVES],
   providers: [
     ROUTER_PROVIDERS,
