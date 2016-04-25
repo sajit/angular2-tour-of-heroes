@@ -6,5 +6,18 @@
     <label>name: </label>
     <input [(ngModel)]="hero.name" placeholder="name" />
   </div>
+  <div>
+    <label>Feast day:</label>
+    <input [(ngModel)]="hero.feastDay" placeholder="feast day" />
+  </div>
+
+    <b>Nemesis of:</b>
+    <ul>
+
+      <li *ngFor="#nemesis of hero.nemesisList">
+        <span class="badge">{{nemesis}}</span>
+      </li>
+    </ul>
+
   <button (click)="goBack()">Back</button>
 </div>

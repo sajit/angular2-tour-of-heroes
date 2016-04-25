@@ -1,14 +1,8 @@
 import { Hero } from './hero';
 
 export var HEROES: Hero[] = [
-  { 'id': 11, 'name': 'Mr. Nice' },
-  { 'id': 12, 'name': 'Narco' },
-  { 'id': 13, 'name': 'Bombasto' },
-  { 'id': 14, 'name': 'Celeritas' },
-  { 'id': 15, 'name': 'Magneta' },
-  { 'id': 16, 'name': 'RubberMan' },
-  { 'id': 17, 'name': 'Dynama' },
-  { 'id': 18, 'name': 'Dr IQ' },
-  { 'id': 19, 'name': 'Magma' },
-  { 'id': 20, 'name': 'Tornado' }
+  { 'id': 11, 'name': 'St Antony of Padua' , 'feastDay': '13 June', 'nemesisList': ['Avarice','Pride']},
+  { 'id': 12, 'name': 'St Maria Goretti', 'feastDay': '06 July', 'nemesisList' : ['Promiscuity', 'Impurity'] },
+  { 'id': 13, 'name': 'St Elizabeth of Hungary', 'feastDay' : '', 'nemesisList': ['Envy'] },
+  { 'id': 14, 'name': 'St Catherine of Sienna', 'feastDay': '', 'nemesisList' : ['Gluttony'] }
 ];
