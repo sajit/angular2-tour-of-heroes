@@ -13,4 +13,9 @@ export class PlannerComponent {
     goBack() {
         window.history.back();
     }
+
+    addSlot(){
+        console.log('Clicked on add slot');
+    }
+
 }

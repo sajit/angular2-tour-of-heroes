@@ -1,3 +1,32 @@
 <div>
-    Hello World
+    <label>Activity:</label> <input type="text" [(ngModel)]="name" placeholder="name"/>
+    <label>Start:</label> <input  type="text" [(ngModel)]="start" placeholder="start"/>
+    <label>Duration:</label> <input  type="number" [(ngModel)]="duration" placeholder="duration (in min)"/>
+    <button class="btn btn-default" (click)="addSlot($event)">Add </button>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1">
+            <b>Sunday</b>
+        </div>
+        <div class="col-lg-1">
+            <b>Monday</b>
+        </div>
+        <div class="col-lg-1">
+            <b>Tuesday</b>
+        </div>
+        <div class="col-lg-1">
+            <b>Wednesday</b>
+        </div>
+        <div class="col-lg-1">
+            <b>Thursday</b>
+        </div>
+        <div class="col-lg-1">
+            <b>Friday</b>
+        </div>
+        <div class="col-lg-1">
+            <b>Saturday</b>
+        </div>
+    </div>
+
 </div>
